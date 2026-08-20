@@ -1,4 +1,5 @@
 from functions.get_files_info import get_files_info
+import prompt
 
 print("Result for current directory:")
 print(get_files_info("calculator", "."))
